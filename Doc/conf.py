@@ -198,3 +198,4 @@ else:
 language = 'fr'
 locale_dirs = ['locales']
 gettext_compact = False
+gettext_auto_build = True
