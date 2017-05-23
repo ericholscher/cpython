@@ -187,3 +187,14 @@ linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+',
 
 # Relative filename of the reference count data file.
 refcount_file = 'data/refcounts.dat'
+
+fr_path = os.path.join('locales', 'fr', 'LC_MESSAGES')
+
+if not os.path.exists(fr_path):
+    os.makedirs(fr_path)
+    os.system('git clone --branch 3.6 https://github.com/python/python-docs-fr locales/fr/LC_MESSAGES')
+else:
+    os.system('cd locales/fr/LC_MESSAGES && git pull origin 3.6')
+language = 'fr'
+locale_dirs = ['locales']
+gettext_compact = False
