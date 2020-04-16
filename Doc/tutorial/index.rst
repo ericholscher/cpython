@@ -4,6 +4,19 @@
   The Python Tutorial
 ######################
 
+Read the Docs Features
+----------------------
+
+Read the Docs features compared with current docs:
+
+    * Global CDN via Cloudflare with cache busting
+    * HoverXRef for a better browsing UX, powered by our Embed API
+    * Better search index powered by Elastic Search
+    * Auto pull-request building
+
+Tutorial Continued
+------------------
+
 Python is an easy to learn, powerful programming language. It has efficient
 high-level data structures and a simple but effective approach to
 object-oriented programming. Python's elegant syntax and dynamic typing,
