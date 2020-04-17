@@ -14,6 +14,9 @@ Read the Docs features compared with current docs:
     * Better search index powered by Elastic Search
     * Auto pull-request building
 
+But the most important is **shared tooling with the community.**
+This means all improvements to Read the Docs flow down to all our libraries and tooling.
+
 Tutorial Continued
 ------------------
 
